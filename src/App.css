@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  background-color: #0b131e;
+  min-height: 100vh;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.navbar-container {
+  background-color: #1f2b3b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  gap: 50px;
+}
+.icons {
+  font-size: 0.5rem;
+}
+.logo-cont {
+  margin-top: 10px;
+}
+.logo {
+  max-height: 20px;
+}
+.link-container {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  gap: 30px;
+  align-items: center;
+  color: #d4d3d3;
+}
+.weather {
+  font-size: 0.5em;
+  display: flex;
+  gap: 5px;
+  margin: 5px;
+  flex-direction: column;
+}
+.cities {
+  font-size: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.settings {
+  font-size: 0.5rem;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.main {
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+  color: #d4d3d3;
+  gap: 5px;
+}
+.search {
+  background-color: #1f2b3b;
+  height: 2rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 0.5rem;
+  padding-left: 10px;
+  text-decoration: none;
+  border: none;
+}
+.current {
+  background-color: #0b131e;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 3vw;
+  padding-block: 1rem;
+}
+.rn-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.city-rain {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.city {
+  font-size: 1rem;
+}
+.rain-chance {
+  font-size: 0.5rem;
+  color: #8f8f8f;
+}
+.rn-temp {
+  font-size: 1.5rem;
+}
+.current-weather-figure {
+  max-height: 5rem;
+}
+.hourly {
+  color: #d4d3d3;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2b3b;
+  padding: 2vw;
+  border-radius: 1rem;
+  gap: 1rem;
+}
+.topic-name {
+  font-size: 0.5rem;
+  color: #8f8f8f;
+}
+.hourly-info {
+  display: flex;
+  justify-content: space-around;
+}
+.zero {
+  font-size: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 5px;
+  align-items: center;
+  border: #d4d3d3;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 1vh;
+}
+.hourly-weather-figure {
+  max-height: 50px;
+}
+.current-info {
+  color: #d4d3d3;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2b3b;
+  padding: 2vw;
+  border-radius: 1rem;
+  gap: 1rem;
+}
+.detailed-info {
+  display: flex;
+  gap: 10px;
+}
+.icon {
+  font-size: 15px;
+}
+.detailed-numbers {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding-inline-end: 20vh;
+}
+.daily {
+  flex: 3;
+  color: #d4d3d3;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2b3b;
+  padding: 2vw;
+  border-radius: 1rem;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.week-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #d4d3d3;
+  font-size: 1vh;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #8f8f8f;
+  padding: 1vh;
+}
+
+.weekly-weather-figure-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.weekly-weather-figure {
+  max-height: 20px;
+}
